@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>My Webpage</title>
+  </head>
+
+  <body>
+    <h1>Election Ballot</h1>
+    <form>
+      <label for="firstName">First name: </label><br />
+      <input
+        type="text"
+        placeholder="ex. Juan"
+        value="Andrea"
+        style="width: 400px"
+        id="firstName"
+      /><br />
+      <label>Last name: </label><br />
+      <input type="text" placeholder="ex. Dela Cruz" /><br />
+      <label>Password: </label><br />
+      <input
+        type="password"
+        placeholder="at least 1 uppercase, at least 1 number"
+      /><br />
+      <label>Confirm password: </label><br />
+      <input type="password" placeholder="re-enter your password" /><br />
+      <label>Email:</label><br />
+      <input type="email" placeholder="ex.johndoe@gmail.com" /><br />
+      <label>Age:</label><br />
+      <input type="number" placeholder="ex.23" /><br />
+      <label>Description: </label><br />
+      <textarea
+        placeholder="ex. what you used to do"
+        style="width: 200px"
+      ></textarea
+      ><br />
+      <label>Upload 2x2</label><br />
+      <input type="file" name="file upload" accept="image/*" />
+      <label>Other input</label>
+      <input type="date" />
+      <input type="color" />
+      <input type="range" min="0" max="100" step="2" value="3" />
+    </form>
+    <h2>President</h2>
+    <form>
+      <input type="radio" name="president" />Jiggs Gaurano
+      <input type="radio" name="president" />Charmaine David
+      <input type="radio" name="president" />Spiderman
+      <input type="radio" name="president" />Raffy Tulfo
+    </form>
+    <h3>Vice President</h3>
+    <form>
+      <select name="dropdown">
+        <option disabled selected>Select one</option>
+        <option value="leniRobredo">Leni Robredo</option>
+        <option value="tigreal">Tigreal</option>
+        <option value="zilong">Zilong</option>
+        <option value="angPanday">Ang Panday</option>
+      </select>
+    </form>
+    <h2>Partylist</h2>
+    <form>
+      <input type="checkbox" value="anakPawis" checked />Anak Pawis<br />
+      <input type="checkbox" value="rustomsPartylist" />Rustom's party List<br />
+      <input type="checkbox" value="anakBayan" />Anak Bayan<br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>

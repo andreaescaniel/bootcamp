@@ -1,0 +1,36 @@
+table,
+td,
+th {
+  border: 2px solid lightgray;
+  border-collapse: collapse;
+
+}
+
+#heading{
+    background-color: rgb(255, 200, 99);
+}
+#meals{
+    background-color: rgb(255, 229, 182);
+}
+#drinks{
+    background-color: rgb(255, 229, 182);
+}
+#all {
+    background-color: rgb(250, 238, 216);
+}
+tr:hover{
+    background-color: rgb(218, 182, 115);
+  }
+  #rate{
+    background-color: black;
+    color:white;
+  }
+  footer{
+    background-color: black;
+    color:white;
+  }
+  #navbar:hover{
+    background-color: lightgray;
+  }
+
+

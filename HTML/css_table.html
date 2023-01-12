@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin: auto;
+        width: 300px;
+      }
+      h1 {
+        text-align: center;
+        margin-left: inherit;
+      }
+      img {
+        width: 200px;
+        clip-path: circle(50%);
+      }
+      img:active {
+        width: 50px;
+      }
+      table,
+      td,
+      th {
+        border-bottom: 2px solid rgb(179, 177, 177);
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        padding: 5px;
+      }
+      table {
+        width: 100%;
+      }
+      .coll1 {
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: gray;
+      }
+      .coll1 {
+        background-color: white;
+      }
+      tr:hover,
+      .coll1:hover {
+        background-color: orange;
+      }
+
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: blue;
+      }
+      a {
+        text-decoration: none;
+        padding: 20px;
+        background-color: red;
+      }
+      a:hover {
+        color: rgb(255, 183, 0);
+        text-decoration: underline;
+      }
+      a:active {
+        color: lime;
+      }
+
+      #caption {
+        position: relative;
+        top: 300px;
+        left: 40px;
+        display: inline;
+      }
+      #header {
+        position: sticky;
+        top: 0px;
+        color: blue;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display and Position</h1>
+    <p id="header">My name is Maria Andrea Escaniel</p>
+    <img src="img/sunflower.jpg" alt="sunflower" />
+    <p id="caption">Delicious Flower</p>
+    <div style="width: 400px">
+      <p>Food is served</p>
+    </div>
+    <h1>Links</h1>
+    <a href="#">Click on me!</a>
+    <h1>Tables</h1>
+    <table>
+      <tr>
+        <th class="coll1">Product</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td class="coll1">Cheese</td>
+        <td>200 pesos</td>
+      </tr>
+      <tr>
+        <td class="coll1">Onion</td>
+        <td>600 pesos</td>
+      </tr>
+      <tr>
+        <td class="coll1">Pork</td>
+        <td>300 pesos</td>
+      </tr>
+    </table>
+    <div>
+      <h1>Hello</h1>
+      <img src="img/lily.jpg" alt="lily" />
+    </div>
+  </body>
+</html>

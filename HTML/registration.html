@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"
+      width="200px"
+      height="200px"
+      alt="iscp logo"
+    /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Basic Information</h2>
+    <form>
+      <label>First Name: </label>
+      <input
+        type="text"
+        placeholder="ex. Maria Andrea"
+        style="width: 200px"
+      /><br />
+      <label>Last Name: </label>
+      <input
+        type="text"
+        placeholder="ex. Escaniel"
+        style="width: 200px"
+      /><br />
+      <label>Place of Birth: </label>
+      <input
+        type="text"
+        placeholder="ex. Lipa City"
+        style="width: 200px"
+      /><br />
+      <label>Birthdate:</label>
+      <input type="date" /><br />
+      <label>Civil Status: </label>
+      <select name="dropdown">
+        <option disabled selected>Select one</option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option>
+        <option value="separated">Separated</option></select
+      ><br />
+      <label>Gender: </label>
+      <select name="dropdown">
+        <option disabled selected>Select one</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option></select
+      ><br />
+      <label>Mother's Maiden Name: </label>
+      <input
+        type="text"
+        placeholder="ex. Juana Dela Cruz"
+        style="width: 200px"
+      /><br />
+      <label>Father's Name: </label>
+      <input
+        type="text"
+        placeholder="ex. Juan Dela Cruz"
+        style="width: 200px"
+      /><br />
+
+      <h2>Contact Information</h2>
+      <label>Email Address:</label>
+      <input
+        type="email"
+        placeholder="ex.juandelacruze@gmail.com"
+        style="width: 200px"
+      /><br />
+      <label>Contact Number (mobile):</label>
+      <input
+        type="number"
+        placeholder="ex.09123456789"
+        style="width: 200px"
+      /><br />
+      <label>Contact Number (telephone):</label>
+      <input
+        type="number"
+        placeholder="ex.8123456"
+        style="width: 200px"
+      /><br />
+
+      <h2>Address</h2>
+      <label>Street Number:</label>
+      <input type="number" placeholder="ex.123" style="width: 200px" /><br />
+      <label>Street Name: </label>
+      <input
+        type="text"
+        placeholder="ex. Gumamela"
+        style="width: 200px"
+      /><br />
+      <label>Barangay: </label>
+      <input
+        type="text"
+        placeholder="ex. Mataasnalupa"
+        style="width: 200px"
+      /><br />
+      <label>City Town: </label>
+      <input
+        type="text"
+        placeholder="ex. Lipa City"
+        style="width: 200px"
+      /><br />
+      <label>Province: </label>
+      <input
+        type="text"
+        placeholder="ex. Batangas"
+        style="width: 200px"
+      /><br />
+      <label>Full Address: </label><br />
+      <textarea
+        placeholder="ex. #123 Gumamela St, Brgy. Mataasnalupa, Lipa City, Batangas"
+        style="width: 400px"
+      ></textarea
+      ><br />
+
+      <h2>Govenment Information</h2>
+      <label>SSS ID:</label>
+      <input
+        type="number"
+        style="width: 200px"
+        placeholder="ex.1234567890"
+      /><br />
+      <label>Pag-Ibig ID:</label>
+      <input
+        type="number"
+        style="width: 200px"
+        placeholder="ex.123456789012"
+      /><br />
+      <label>PhilHealth ID:</label>
+      <input
+        type="number"
+        style="width: 200px"
+        placeholder="ex.123456789012"
+      /><br />
+      <label>Upload 2x2 picture:</label><br />
+      <input type="file" name="file upload" accept="image/*" /><br />
+      <label>Upload picture of government ID:</label><br />
+      <input type="file" name="file upload" accept="image/*" />
+
+      <h2>Account Information</h2>
+      <label>Username: </label><br />
+      <input
+        type="text"
+        placeholder="lowercase only"
+        style="width: 200px"
+      /><br />
+      <label>Password: </label><br />
+      <input
+        type="password"
+        placeholder="minimum of 8 characters"
+        style="width: 200px"
+      /><br />
+      <label>Confirm password: </label><br />
+      <input
+        type="password"
+        placeholder="re-enter your password"
+        style="width: 200px"
+      /><br />
+      <label>Upload profile image:</label><br />
+      <input type="file" name="file upload" accept="image/*" />
+
+      <h2>Have you experienced any of the follwing in the last 30 days?</h2>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault1"
+        />
+        <label class="form-check-label" for="flexRadioDefault1">
+          This is the first time!
+        </label>
+      </div>
+
+      <h2>Give a short description about yourself.</h2>
+      <textarea
+        placeholder="ex. what you used to do"
+        style="width: 400px"
+      ></textarea
+      ><br />
+
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
